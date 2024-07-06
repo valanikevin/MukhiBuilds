@@ -26,7 +26,7 @@ function HeaderThree({ className = "menu-area-three" }) {
                 <nav className="menu-nav">
                   <div className="logo">
                     <a href="/">
-                      <img src={Logo} alt="Logo" height={"70"} />
+                      <img src={Logo} alt="Logo" style={{ width: "100%" }} />
                     </a>
                   </div>
                   <div className="navbar-wrap main-menu d-none d-lg-flex">
