@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Logo from "../../../assets/img/logo/logo_02.png";
+import Logo from "../../../assets/img/logo/Logo.svg";
 function HeaderThree({ className = "menu-area-three" }) {
   const [drawer, setDrawer] = useState(false);
   useEffect(() => {
@@ -26,7 +26,7 @@ function HeaderThree({ className = "menu-area-three" }) {
                 <nav className="menu-nav">
                   <div className="logo">
                     <a href="/">
-                      <img src={Logo} alt="Logo" />
+                      <img src={Logo} alt="Logo" height={"70"} />
                     </a>
                   </div>
                   <div className="navbar-wrap main-menu d-none d-lg-flex">

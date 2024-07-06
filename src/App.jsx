@@ -3,7 +3,6 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import { Routes, useLocation, Route } from "react-router-dom";
-import HomePage from "./pages/HomePage";
 import HomeThree from "./Components/HomeThree";
 import "./assets/css/bootstrap.min.css";
 import "./assets/css/fontawesome-all.min.css";
