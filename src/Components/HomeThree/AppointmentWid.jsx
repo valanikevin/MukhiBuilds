@@ -12,7 +12,9 @@ function AppointmentWid() {
                 backgroundImage: `url(${AppointmentBG})`,
               }}
             >
-              <h2 className="title tg-element-title">Book Your Appointment</h2>
+              <h2 className="title tg-element-title">
+                Get your free quote today
+              </h2>
               <form action="#">
                 <div className="row">
                   <div className="col-lg-4">

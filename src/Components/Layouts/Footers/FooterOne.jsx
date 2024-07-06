@@ -6,7 +6,7 @@ import fInstaImg03 from "../../../assets/img/instagram/f_insta_img03.jpg";
 import fInstaImg04 from "../../../assets/img/instagram/f_insta_img04.jpg";
 import fInstaImg05 from "../../../assets/img/instagram/f_insta_img05.jpg";
 import fInstaImg06 from "../../../assets/img/instagram/f_insta_img06.jpg";
-import wLogo from "../../../assets/img/logo/w_logo.png";
+import wLogo from "../../../assets/img/logo/WLogo.svg";
 function FooterOne() {
   return (
     <footer>
@@ -185,7 +185,7 @@ function FooterOne() {
                     </div>
                     <div className="content">
                       <span>Phone No</span>
-                      <a href="tel:0123456789">+000 (123) 456 88</a>
+                      <a href="tel:0123456789">(778)898-9924</a>
                     </div>
                   </div>
                 </div>
@@ -225,7 +225,7 @@ function FooterOne() {
             <div className="row">
               <div className="col-md-6">
                 <div className="copyright-text">
-                  <p>© Copyright 2025. All Right Reserved</p>
+                  <p>© Copyright 2024. All Right Reserved</p>
                 </div>
               </div>
               <div className="col-md-6">

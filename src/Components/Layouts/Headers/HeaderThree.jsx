@@ -31,26 +31,10 @@ function HeaderThree({ className = "menu-area-three" }) {
                   </div>
                   <div className="navbar-wrap main-menu d-none d-lg-flex">
                     <ul className="navigation">
-                      <li className="menu-item-has-children">
+                      <li className="">
                         <a href="#">Home</a>
-                        <ul className="sub-menu">
-                          <li>
-                            <a href="/">Home One</a>
-                          </li>
-                          <li>
-                            <a href="home-two">Home Two</a>
-                          </li>
-                          <li>
-                            <a href="/home-three">Home Three</a>
-                          </li>
-                          <li>
-                            <a href="/home-four">Home Four</a>
-                          </li>
-                        </ul>
                       </li>
-                      <li className="active">
-                        <a href="/about">About us</a>
-                      </li>
+
                       <li className="menu-item-has-children">
                         <a href="#">Services</a>
                         <ul className="sub-menu">
@@ -64,37 +48,7 @@ function HeaderThree({ className = "menu-area-three" }) {
                           </li>
                         </ul>
                       </li>
-                      <li className="menu-item-has-children">
-                        <a href="#">Pages</a>
-                        <ul className="sub-menu">
-                          <li>
-                            <a href="/project">Project Page</a>
-                          </li>
-                          <li>
-                            <a href="/project-details">Project Details</a>
-                          </li>
-                          <li>
-                            <a href="/team">Our Team</a>
-                          </li>
-                          <li>
-                            <a href="/team-details">Team Details</a>
-                          </li>
-                          <li>
-                            <a href="/error">404 Error</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li className="menu-item-has-children">
-                        <a href="#">Blog</a>
-                        <ul className="sub-menu">
-                          <li>
-                            <a href="/blogs">Our Blog</a>
-                          </li>
-                          <li>
-                            <a href="/blogs/blog">Blog Details</a>
-                          </li>
-                        </ul>
-                      </li>
+
                       <li>
                         <a href="/contact">Contact</a>
                       </li>
@@ -124,25 +78,8 @@ function HeaderThree({ className = "menu-area-three" }) {
                   </div>
                   <div className="menu-outer">
                     <ul className="navigation">
-                      <li className="active menu-item-has-children">
+                      <li className="active">
                         <a href="#">Home</a>
-                        <ul className="sub-menu">
-                          <li className="active">
-                            <a href="/">Home One</a>
-                          </li>
-                          <li>
-                            <a href="home-two">Home Two</a>
-                          </li>
-                          <li>
-                            <a href="/home-three">Home Three</a>
-                          </li>
-                          <li>
-                            <a href="/home-four">Home Four</a>
-                          </li>
-                        </ul>
-                        <div className="dropdown-btn">
-                          <span className="fas fa-angle-down"></span>
-                        </div>
                       </li>
                       <li>
                         <a href="/about">About us</a>
@@ -163,43 +100,7 @@ function HeaderThree({ className = "menu-area-three" }) {
                           <span className="fas fa-angle-down"></span>
                         </div>
                       </li>
-                      <li className="menu-item-has-children">
-                        <a href="#">Pages</a>
-                        <ul className="sub-menu">
-                          <li>
-                            <a href="/project">Project Page</a>
-                          </li>
-                          <li>
-                            <a href="/project-details">Project Details</a>
-                          </li>
-                          <li>
-                            <a href="/team">Our Team</a>
-                          </li>
-                          <li>
-                            <a href="/team-details">Team Details</a>
-                          </li>
-                          <li>
-                            <a href="/error">404 Error</a>
-                          </li>
-                        </ul>
-                        <div className="dropdown-btn">
-                          <span className="fas fa-angle-down"></span>
-                        </div>
-                      </li>
-                      <li className="menu-item-has-children">
-                        <a href="#">Blog</a>
-                        <ul className="sub-menu">
-                          <li>
-                            <a href="/blogs">Our Blog</a>
-                          </li>
-                          <li>
-                            <a href="/blogs/blog">Blog Details</a>
-                          </li>
-                        </ul>
-                        <div className="dropdown-btn">
-                          <span className="fas fa-angle-down"></span>
-                        </div>
-                      </li>
+
                       <li>
                         <a href="/contact">Contact</a>
                       </li>

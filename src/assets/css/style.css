@@ -47,8 +47,8 @@
 	01. Variable CSS
 ===============================*/
 :root {
-  --tg-body-font-family: "DM Sans", sans-serif;
-  --tg-heading-font-family: "Poppins", sans-serif;
+  --tg-body-font-family: "Futura", sans-serif;
+  --tg-heading-font-family: "Futura", sans-serif;
   --tg-primary-color: #b8860b; /* Dark Gold */
   --tg-secondary-color: #2a2a72; /* Deep Blue */
   --tg-body-font-color: #8d8d8d; /* Medium Gray */

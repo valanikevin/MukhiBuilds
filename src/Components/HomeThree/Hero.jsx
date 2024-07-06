@@ -17,17 +17,17 @@ function Hero() {
             <div className="banner-img-wrap">
               <img src={BannerImg1} alt="" />
               <div className="overly-text">
-                <h2 className="title">Roofing Services</h2>
+                <h2 className="title">Basement</h2>
               </div>
             </div>
           </div>
           <div className="col-lg-6">
             <div className="banner-content-two">
               <span className="sub-title wow fadeInUp" data-wow-delay=".2s">
-                Smart Solutions
+                High Quality
               </span>
               <h2 className="title wow fadeInUp" data-wow-delay=".4s">
-                Best Roofing Services and Consulting
+                Basement Development in Edmonton
               </h2>
               <p className="wow fadeInUp" data-wow-delay=".6s">
                 Roofing mbrace change are thriving, building bigger,

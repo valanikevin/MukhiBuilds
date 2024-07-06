@@ -39,51 +39,22 @@ function HomeThree() {
             <div className="col-xl-8 col-lg-9">
               <div className="header-top-left">
                 <ul className="list-wrap">
-                  <li>Welcome to Roofx Construction</li>
+                  <li>Welcome to Mukhi Builds</li>
                   <li>
                     <i className="fas fa-phone-alt"></i>
-                    <a href="tel:0123456789">+88 ( 5548 ) 6548</a>
+                    <a href="tel:17788989924">(778)898-9924</a>
                   </li>
                   <li>
                     <i className="fas fa-envelope"></i>
-                    <a href="mailto:infoyour@gmail.com">infoyour@gmail.com</a>
+                    <a href="mailto:kuldippadshala@gmail.com">
+                      hello@mukhibuilds.com
+                    </a>
                   </li>
                 </ul>
               </div>
             </div>
             <div className="col-xl-4 col-lg-3">
               <div className="header-top-right">
-                <div className="header-lang">
-                  <div className="dropdown">
-                    <button
-                      className="dropdown-toggle"
-                      type="button"
-                      id="dropdownMenuButton1"
-                      data-bs-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                    >
-                      <img src={UnitedStates} alt="" /> English
-                    </button>
-                    <div
-                      className="dropdown-menu"
-                      aria-labelledby="dropdownMenuButton1"
-                    >
-                      <a className="dropdown-item" href="/">
-                        <img src={Russia} alt="" />
-                        Russia
-                      </a>
-                      <a className="dropdown-item" href="/">
-                        <img src={India} alt="" />
-                        India
-                      </a>
-                      <a className="dropdown-item" href="/">
-                        <img src={Bangladesh} alt="" />
-                        Bangla
-                      </a>
-                    </div>
-                  </div>
-                </div>
                 <div className="header-social">
                   <ul className="list-wrap">
                     <li>
@@ -117,7 +88,7 @@ function HomeThree() {
       <main>
         <Hero />
         <AppointmentWid />
-        <AboutArea />
+        {/* <AboutArea />
         <WorkArea />
         <HistoryArea videoHandler={videoHandler} />
         <Services />
@@ -126,7 +97,7 @@ function HomeThree() {
         <ProjectArea />
         <FaqArea />
         <Blogs />
-        <NewsLetterArea />
+        <NewsLetterArea /> */}
       </main>
       <FooterOne />
     </>
