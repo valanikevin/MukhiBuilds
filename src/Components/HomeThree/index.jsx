@@ -18,6 +18,7 @@ import UnitedStates from "../../assets/img/icon/united-states.jpg";
 import Russia from "../../assets/img/icon/russia.jpg";
 import India from "../../assets/img/icon/india.jpg";
 import Bangladesh from "../../assets/img/icon/bangladesh.jpg";
+import ServiceArea from "../ServiceArea";
 
 function HomeThree() {
   const [videoPop, setVideoPop] = useState(false);
@@ -39,7 +40,6 @@ function HomeThree() {
             <div className="col-xl-8 col-lg-9">
               <div className="header-top-left">
                 <ul className="list-wrap">
-                  <li>Welcome to Mukhi Builds</li>
                   <li>
                     <i className="fas fa-phone-alt"></i>
                     <a href="tel:17788989924">(778)898-9924</a>
@@ -87,9 +87,9 @@ function HomeThree() {
       <HeaderThree />
       <main>
         <Hero />
-        <AppointmentWid />
-        {/* <AboutArea />
-        <WorkArea />
+
+        <ServiceArea />
+        {/*<WorkArea />
         <HistoryArea videoHandler={videoHandler} />
         <Services />
         <EngrWorks videoHandler={videoHandler} />

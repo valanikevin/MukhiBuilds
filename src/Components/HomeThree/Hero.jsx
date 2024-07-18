@@ -7,7 +7,7 @@ import BannerShape4 from "../../assets/img/banner/h3_banner_shape04.png";
 import BannerShape5 from "../../assets/img/banner/h3_banner_shape05.png";
 import BannerShape6 from "../../assets/img/banner/h3_banner_shape06.png";
 import BannerShape7 from "../../assets/img/banner/h3_banner_shape07.png";
-
+import HeroBasement from "../../assets/img/images/SocialBasementRenosRenova.jpg";
 function Hero() {
   return (
     <section className="banner-area-two parallax">
@@ -15,7 +15,7 @@ function Hero() {
         <div className="row align-items-center justify-content-center">
           <div className="col-lg-6 col-md-10 order-0 order-lg-2">
             <div className="banner-img-wrap">
-              <img src={BannerImg1} alt="" />
+              <img src={HeroBasement} alt="" />
               <div className="overly-text">
                 <h2 className="title">Basement</h2>
               </div>
@@ -24,21 +24,20 @@ function Hero() {
           <div className="col-lg-6">
             <div className="banner-content-two">
               <span className="sub-title wow fadeInUp" data-wow-delay=".2s">
-                High Quality
+                Serving Edmonton with Love
               </span>
               <h2 className="title wow fadeInUp" data-wow-delay=".4s">
-                Basement Development in Edmonton
+                Transform Your Basement into a Dream Space
               </h2>
               <p className="wow fadeInUp" data-wow-delay=".6s">
-                Roofing mbrace change are thriving, building bigger,
-                better,faster, and products than ever Roofing mbrace.
+                From Vision to Reality, We Build Spaces You'll Love"
               </p>
               <a
-                href="/project"
+                href="https://form.jotform.com/241915179823059"
                 className="btn wow fadeInUp"
                 data-wow-delay=".8s"
               >
-                Discover More
+                Get Free Quote
               </a>
             </div>
           </div>
