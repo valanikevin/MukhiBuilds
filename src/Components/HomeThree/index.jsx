@@ -20,6 +20,8 @@ import India from "../../assets/img/icon/india.jpg";
 import Bangladesh from "../../assets/img/icon/bangladesh.jpg";
 import ServiceArea from "../ServiceArea";
 import MultipleArea from "../MultipleArea";
+import MultipleAreaTwo from "./MultipleAreaTwo";
+import { FaLocationPin } from "react-icons/fa6";
 
 function HomeThree() {
   const [videoPop, setVideoPop] = useState(false);
@@ -56,30 +58,7 @@ function HomeThree() {
             </div>
             <div className="col-xl-4 col-lg-3">
               <div className="header-top-right">
-                <div className="header-social">
-                  <ul className="list-wrap">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin-in"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
+                <div className="header-social text-white">Edmonton, AB</div>
               </div>
             </div>
           </div>
@@ -90,7 +69,7 @@ function HomeThree() {
         <Hero />
 
         <ServiceArea />
-        <MultipleArea />
+        <MultipleAreaTwo />
         {/*<WorkArea />
         <HistoryArea videoHandler={videoHandler} />
         <Services />

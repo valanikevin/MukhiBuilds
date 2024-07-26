@@ -36,21 +36,42 @@ function HeaderThree({ className = "menu-area-three" }) {
                       </li>
 
                       <li className="menu-item-has-children">
-                        <a href="#">Services</a>
+                        <a href="https://form.jotform.com/241915179823059">
+                          Services
+                        </a>
                         <ul className="sub-menu">
                           <li>
-                            <a href="/services">Services Page</a>
+                            <a href="https://form.jotform.com/241915179823059">
+                              Basement Finishing
+                            </a>
                           </li>
                           <li>
-                            <a href="/services/services-details">
-                              Services Details
+                            <a href="https://form.jotform.com/241915179823059">
+                              Custom Design
+                            </a>
+                          </li>
+                          <li>
+                            <a href="https://form.jotform.com/241915179823059">
+                              Insulation & Drywall
+                            </a>
+                          </li>
+                          <li>
+                            <a href="https://form.jotform.com/241915179823059">
+                              Flooring & Tile
+                            </a>
+                          </li>
+                          <li>
+                            <a href="https://form.jotform.com/241915179823059">
+                              Electrical Upgrades
                             </a>
                           </li>
                         </ul>
                       </li>
 
                       <li>
-                        <a href="/contact">Contact</a>
+                        <a href="https://form.jotform.com/241915179823059">
+                          Contact
+                        </a>
                       </li>
                     </ul>
                   </div>
@@ -85,56 +106,55 @@ function HeaderThree({ className = "menu-area-three" }) {
                         <a href="/about">About us</a>
                       </li>
                       <li className="menu-item-has-children">
-                        <a href="#">Services</a>
+                        <a href="https://form.jotform.com/241915179823059">
+                          Services
+                        </a>
                         <ul className="sub-menu">
                           <li>
-                            <a href="/services">Services Page</a>
+                            <a href="https://form.jotform.com/241915179823059">
+                              Basement Finishing
+                            </a>
                           </li>
                           <li>
-                            <a href="/services/services-details">
-                              Services Details
+                            <a href="https://form.jotform.com/241915179823059">
+                              Custom Design
+                            </a>
+                          </li>
+                          <li>
+                            <a href="https://form.jotform.com/241915179823059">
+                              Insulation & Drywall
+                            </a>
+                          </li>
+                          <li>
+                            <a href="https://form.jotform.com/241915179823059">
+                              Flooring & Tile
+                            </a>
+                          </li>
+                          <li>
+                            <a href="https://form.jotform.com/241915179823059">
+                              Electrical Upgrades
+                            </a>
+                          </li>
+                          <li>
+                            <a href="https://form.jotform.com/241915179823059">
+                              Bathroom & Kitchen
+                            </a>
+                          </li>
+                          <li>
+                            <a href="https://form.jotform.com/241915179823059">
+                              Permits & Inspections
                             </a>
                           </li>
                         </ul>
-                        <div className="dropdown-btn">
-                          <span className="fas fa-angle-down"></span>
-                        </div>
-                      </li>
-
-                      <li>
-                        <a href="/contact">Contact</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="social-links">
-                    <ul className="clearfix list-wrap">
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-facebook-f"></i>
-                        </a>
                       </li>
                       <li>
-                        <a href="#">
-                          <i className="fab fa-twitter"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-instagram"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-linkedin-in"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-youtube"></i>
+                        <a href="https://form.jotform.com/241915179823059">
+                          Contact
                         </a>
                       </li>
                     </ul>
                   </div>
+                  <div className="social-links">Edmonton, Ab</div>
                 </nav>
               </div>
               <div className="menu-backdrop"></div>

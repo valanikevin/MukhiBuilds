@@ -1,6 +1,8 @@
 import React from "react";
 import AreaBg1 from "../assets/img/bg/area_bg01.jpg";
 import AreaBg2 from "../assets/img/bg/appointment_bg.jpg";
+import AreaBg3 from "../assets/img/bg/area_bg03.jpg";
+import FooterBg from "../assets/img/bg/footer_bg.jpg";
 import CounterIcon1 from "../assets/img/icon/counter_icon01.svg";
 import CounterIcon2 from "../assets/img/icon/counter_icon02.svg";
 import CounterIcon3 from "../assets/img/icon/counter_icon03.svg";
@@ -13,7 +15,7 @@ function MultipleArea() {
       <div
         className="area-background-img jarallax"
         style={{
-          backgroundImage: `url(${AreaBg1})`,
+          backgroundImage: `url(${AreaBg2})`,
         }}
       ></div>
       <div className="counter-area-two">
@@ -26,7 +28,7 @@ function MultipleArea() {
                     <img src={CounterIcon1} alt="" />
                   </div>
                   <div className="counter-content">
-                    <span className="count odometer">1500</span>
+                    <span className="count odometer">45</span>
                     <p>Project Complete</p>
                   </div>
                 </div>
@@ -37,7 +39,7 @@ function MultipleArea() {
                     <img src={CounterIcon2} alt="" />
                   </div>
                   <div className="counter-content">
-                    <span className="count odometer">8562</span>
+                    <span className="count odometer">28</span>
                     <p>Satisfied Clients</p>
                   </div>
                 </div>
@@ -48,7 +50,7 @@ function MultipleArea() {
                     <img src={CounterIcon3} alt="" />
                   </div>
                   <div className="counter-content">
-                    <span className="count odometer">450</span>
+                    <span className="count odometer">12</span>
                     <p>Experienced Staff</p>
                   </div>
                 </div>
@@ -59,7 +61,7 @@ function MultipleArea() {
                     <img src={CounterIcon4} alt="" />
                   </div>
                   <div className="counter-content">
-                    <span className="count odometer">38</span>
+                    <span className="count odometer">3</span>
                     <p>Awards Win</p>
                   </div>
                 </div>
