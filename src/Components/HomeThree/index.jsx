@@ -19,6 +19,7 @@ import Russia from "../../assets/img/icon/russia.jpg";
 import India from "../../assets/img/icon/india.jpg";
 import Bangladesh from "../../assets/img/icon/bangladesh.jpg";
 import ServiceArea from "../ServiceArea";
+import MultipleArea from "../MultipleArea";
 
 function HomeThree() {
   const [videoPop, setVideoPop] = useState(false);
@@ -89,6 +90,7 @@ function HomeThree() {
         <Hero />
 
         <ServiceArea />
+        <MultipleArea />
         {/*<WorkArea />
         <HistoryArea videoHandler={videoHandler} />
         <Services />
