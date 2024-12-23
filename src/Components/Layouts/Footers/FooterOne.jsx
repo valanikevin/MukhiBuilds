@@ -37,7 +37,7 @@ function FooterOne() {
                     </div>
                     <div className="content">
                       <span>Phone No</span>
-                      <a href="tel:17788989924">(778)898-9924</a>
+                      <a href="tel:18258889924">(825)888-9924</a>
                     </div>
                   </div>
                 </div>
