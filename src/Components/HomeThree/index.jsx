@@ -50,7 +50,7 @@ function HomeThree() {
                   <li>
                     <i className="fas fa-envelope"></i>
                     <a href="mailto:kuldippadshala@gmail.com">
-                      hello@mukhibuilds.com
+                      hello@mukhiconstruction.ca
                     </a>
                   </li>
                 </ul>

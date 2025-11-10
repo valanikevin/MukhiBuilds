@@ -6,7 +6,7 @@ import fInstaImg03 from "../../../assets/img/instagram/f_insta_img03.jpg";
 import fInstaImg04 from "../../../assets/img/instagram/f_insta_img04.jpg";
 import fInstaImg05 from "../../../assets/img/instagram/f_insta_img05.jpg";
 import fInstaImg06 from "../../../assets/img/instagram/f_insta_img06.jpg";
-import wLogo from "../../../assets/img/logo/WLogo.svg";
+import wLogo from "../../../assets/img/logo/Logo.jpeg";
 import { FaClipboard, FaClipboardCheck, FaPage4 } from "react-icons/fa";
 import { FiArrowRight } from "react-icons/fi";
 function FooterOne() {
@@ -20,12 +20,12 @@ function FooterOne() {
       >
         <div className="footer-top">
           <div className="container">
-            <div className="footer-logo-area">
+            <div className="footer-logo-area bg-white">
               <div className="row align-items-center">
                 <div className="col-xl-3 col-lg-3 col-md-12">
                   <div className="logo">
                     <a href="/">
-                      <img src={wLogo} alt="" />
+                      <img src={wLogo} alt="" style={{ maxHeight: "120px" }} />
                     </a>
                   </div>
                 </div>
@@ -63,7 +63,7 @@ function FooterOne() {
             <div className="row">
               <div className="col-md-6">
                 <div className="copyright-text">
-                  <p>© Copyright 2024. All Right Reserved</p>
+                  <p>© Copyright 2025. All Right Reserved</p>
                 </div>
               </div>
               <div className="col-md-6">
