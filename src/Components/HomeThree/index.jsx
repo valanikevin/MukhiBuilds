@@ -22,6 +22,7 @@ import ServiceArea from "../ServiceArea";
 import MultipleArea from "../MultipleArea";
 import MultipleAreaTwo from "./MultipleAreaTwo";
 import { FaLocationPin } from "react-icons/fa6";
+import ImageSlider from "./ImageSlider";
 
 function HomeThree() {
   const [videoPop, setVideoPop] = useState(false);
@@ -67,6 +68,7 @@ function HomeThree() {
       <HeaderThree />
       <main>
         <Hero />
+        <ImageSlider />
 
         <ServiceArea />
         <MultipleAreaTwo />

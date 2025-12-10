@@ -1,0 +1,32 @@
+/*
+ * 1. Target the slide container:
+ * This forces the height of the slide to be consistent, preventing layout shift.
+ * The padding-bottom trick is a popular way to maintain a responsive aspect ratio
+ * (e.g., 60% of the width) while keeping the height fixed relative to the width.
+ */
+.gallery-slide-item {
+  position: relative; /* Needed for absolute positioning of the image */
+  padding-bottom: 60%; /* This sets the height to 60% of the parent's width (a 16:10 or landscape ratio). Adjust this percentage (e.g., 75% for 4:3, 100% for square) to your preferred fixed height. */
+  height: 0; /* Important to enable the padding trick */
+  overflow: hidden; /* Ensures image doesn't spill out */
+}
+
+/*
+ * 2. Target the image inside:
+ * This forces the image to cover the entire slide container, 
+ * cropping any excess width or height while maintaining its aspect ratio.
+ */
+.slide-image-fit {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* THIS IS THE KEY PROPERTY: It ensures the image fills the area without being squished/stretched. */
+}
+
+/* Optional: Improve styling for dots/arrows if needed */
+.mukhi-slider-wrapper .slick-dots {
+  /* Example adjustment for better visibility */
+  bottom: -30px;
+}
