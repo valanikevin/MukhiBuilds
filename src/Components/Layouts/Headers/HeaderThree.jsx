@@ -16,12 +16,17 @@ function HeaderThree({ className = "menu-area-three" }) {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <div
-                onClick={() => setDrawer(!drawer)}
-                className="mobile-nav-toggler"
-              >
-                <i className="fas fa-bars"></i>
-              </div>
+              {!drawer && (
+                <div
+                  onClick={() => setDrawer(true)}
+                  className="mobile-nav-toggler"
+                  aria-label="Open mobile menu"
+                  role="button"
+                >
+                  <i className="fas fa-bars"></i>
+                </div>
+              )}
+
               <div className="menu-wrap">
                 <nav className="menu-nav">
                   <div
@@ -143,7 +148,7 @@ function HeaderThree({ className = "menu-area-three" }) {
                   <div onClick={() => setDrawer(!drawer)} className="close-btn">
                     <i className="fas fa-times"></i>
                   </div>
-                  <div className="nav-logo">
+                  <div className="nav-logo" style={{ paddingTop: "8px" }}>
                     <a href="/">
                       <img src={Logo} alt="Mukhi Builds Logo" />
                     </a>
@@ -154,7 +159,7 @@ function HeaderThree({ className = "menu-area-three" }) {
                         textTransform: "uppercase",
                         letterSpacing: "1.5px",
                         color: "#fe5d14",
-                        margin: "5px 0 0",
+                        margin: "5px 0 8px",
                         textAlign: "center",
                       }}
                     >

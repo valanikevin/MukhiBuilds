@@ -47,11 +47,13 @@ function Hero() {
                   <img src={img.src} alt={img.alt} />
                 </div>
               ))}
-              <div className="hero-collage-overlay">
-                <span className="hero-collage-badge">
-                  <strong>10+</strong> Projects Completed
-                </span>
-              </div>
+            </div>
+
+            {/* badge moved below collage (was overlay) */}
+            <div className="hero-collage-below">
+              <span className="hero-collage-badge">
+                <strong>Over 340+</strong> Projects Completed
+              </span>
             </div>
           </div>
           <div className="col-lg-6">

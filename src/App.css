@@ -98,12 +98,12 @@
   grid-row: 3;
 }
 
-/* Badge overlay */
-.hero-collage-overlay {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  z-index: 3;
+/* Badge (now shown below collage) */
+.hero-collage-below {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+  margin-bottom: 28px; /* increased: extra breathing room below the badge */
 }
 
 .hero-collage-badge {
@@ -121,6 +121,13 @@
 .hero-collage-badge strong {
   font-size: 18px;
   margin-right: 3px;
+}
+
+@media (max-width: 575px) {
+  .hero-collage-below {
+    margin-top: 10px;
+    margin-bottom: 20px; /* increased on mobile */
+  }
 }
 
 /* Hero CTA group */
