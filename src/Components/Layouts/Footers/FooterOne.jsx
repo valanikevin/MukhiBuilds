@@ -25,8 +25,24 @@ function FooterOne() {
                 <div className="col-xl-3 col-lg-3 col-md-12">
                   <div className="logo">
                     <a href="/">
-                      <img src={wLogo} alt="" style={{ maxHeight: "120px" }} />
+                      <img
+                        src={wLogo}
+                        alt="Mukhi Builds"
+                        style={{ maxHeight: "120px", borderRadius: "8px" }}
+                      />
                     </a>
+                    <p
+                      style={{
+                        fontSize: "11px",
+                        fontWeight: "700",
+                        textTransform: "uppercase",
+                        letterSpacing: "1.5px",
+                        color: "#fe5d14",
+                        margin: "8px 0 0",
+                      }}
+                    >
+                      Construction & Landscaping
+                    </p>
                   </div>
                 </div>
 
@@ -63,7 +79,7 @@ function FooterOne() {
             <div className="row">
               <div className="col-md-6">
                 <div className="copyright-text">
-                  <p>© Copyright 2025. All Right Reserved</p>
+                  <p>© Copyright 2026 Mukhi Builds. All Rights Reserved</p>
                 </div>
               </div>
               <div className="col-md-6">

@@ -7,6 +7,7 @@ import {
   BiBoltCircle,
   BiBath,
   BiClipboard,
+  BiLeaf,
 } from "react-icons/bi";
 
 function ServiceArea({ className }) {
@@ -17,7 +18,7 @@ function ServiceArea({ className }) {
           <div className="col-lg-6">
             <div className="section-title text-center mb-50 tg-heading-subheading animation-style3">
               <span className="sub-title tg-element-title">What We Do</span>
-              <h2 className="title tg-element-title">Our Services Areas</h2>
+              <h2 className="title tg-element-title">Our Service Areas</h2>
             </div>
           </div>
         </div>
@@ -250,6 +251,41 @@ function ServiceArea({ className }) {
                 <p>
                   Ensure your project meets all regulations with our
                   comprehensive permit and inspection services.
+                </p>
+                <a
+                  href="https://form.jotform.com/241915179823059"
+                  className="read-more"
+                >
+                  Get Your Quote <i className="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 col-sm-10">
+            <div
+              className="services-item wow fadeInUp"
+              data-wow-delay="1.4s"
+              style={{
+                background: `url("../../assets/img/services/services_item01.jpg")`,
+              }}
+            >
+              <div className="services-icon">
+                <BiLeaf />
+              </div>
+              <div className="services-content">
+                <h2 className="title">
+                  <a href="/services/services-details">Landscaping</a>
+                </h2>
+                <h2 className="number">08</h2>
+              </div>
+              <div className="services-overlay-content">
+                <h2 className="title">
+                  <a href="/services/services-details">Landscaping</a>
+                </h2>
+                <p>
+                  Enhance your outdoor space with professional landscaping
+                  services including garden design, hardscaping, and curb
+                  appeal.
                 </p>
                 <a
                   href="https://form.jotform.com/241915179823059"

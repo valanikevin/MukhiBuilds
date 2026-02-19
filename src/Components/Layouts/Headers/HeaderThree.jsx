@@ -24,14 +24,51 @@ function HeaderThree({ className = "menu-area-three" }) {
               </div>
               <div className="menu-wrap">
                 <nav className="menu-nav">
-                  <div className="logo">
+                  <div
+                    className="logo"
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      gap: "10px",
+                    }}
+                  >
                     <a href="/">
                       <img
                         src={Logo}
-                        alt="Logo"
+                        alt="Mukhi Builds Logo"
                         style={{ maxHeight: "80px" }}
                       />
                     </a>
+                    <div className="logo-tagline d-none d-xl-block">
+                      <span
+                        style={{
+                          fontSize: "11px",
+                          fontWeight: "700",
+                          textTransform: "uppercase",
+                          letterSpacing: "1.5px",
+                          color: "#fe5d14",
+                          lineHeight: "1.4",
+                          display: "block",
+                          whiteSpace: "nowrap",
+                        }}
+                      >
+                        Construction &amp;
+                      </span>
+                      <span
+                        style={{
+                          fontSize: "11px",
+                          fontWeight: "700",
+                          textTransform: "uppercase",
+                          letterSpacing: "1.5px",
+                          color: "#333",
+                          lineHeight: "1.4",
+                          display: "block",
+                          whiteSpace: "nowrap",
+                        }}
+                      >
+                        Landscaping
+                      </span>
+                    </div>
                   </div>
                   <div className="navbar-wrap main-menu d-none d-lg-flex">
                     <ul className="navigation">
@@ -69,6 +106,11 @@ function HeaderThree({ className = "menu-area-three" }) {
                               Electrical Upgrades
                             </a>
                           </li>
+                          <li>
+                            <a href="https://form.jotform.com/241915179823059">
+                              Landscaping
+                            </a>
+                          </li>
                         </ul>
                       </li>
 
@@ -82,8 +124,11 @@ function HeaderThree({ className = "menu-area-three" }) {
                   <div className="header-action d-none d-md-block">
                     <ul className="list-wrap">
                       <li className="header-btn">
-                        <a href="/contact" className="btn">
-                          Get a Quoute
+                        <a
+                          href="https://form.jotform.com/241915179823059"
+                          className="btn"
+                        >
+                          Get a Quote
                         </a>
                       </li>
                     </ul>
@@ -98,8 +143,21 @@ function HeaderThree({ className = "menu-area-three" }) {
                   </div>
                   <div className="nav-logo">
                     <a href="/">
-                      <img src={Logo} alt="Logo" />
+                      <img src={Logo} alt="Mukhi Builds Logo" />
                     </a>
+                    <p
+                      style={{
+                        fontSize: "11px",
+                        fontWeight: "700",
+                        textTransform: "uppercase",
+                        letterSpacing: "1.5px",
+                        color: "#fe5d14",
+                        margin: "5px 0 0",
+                        textAlign: "center",
+                      }}
+                    >
+                      Construction & Landscaping
+                    </p>
                   </div>
                   <div className="menu-outer">
                     <ul className="navigation">
@@ -149,6 +207,11 @@ function HeaderThree({ className = "menu-area-three" }) {
                               Permits & Inspections
                             </a>
                           </li>
+                          <li>
+                            <a href="https://form.jotform.com/241915179823059">
+                              Landscaping
+                            </a>
+                          </li>
                         </ul>
                       </li>
                       <li>
@@ -158,7 +221,7 @@ function HeaderThree({ className = "menu-area-three" }) {
                       </li>
                     </ul>
                   </div>
-                  <div className="social-links">Edmonton, Ab</div>
+                  <div className="social-links">Edmonton, AB</div>
                 </nav>
               </div>
               <div className="menu-backdrop"></div>

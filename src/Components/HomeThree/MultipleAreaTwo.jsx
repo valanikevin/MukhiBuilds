@@ -154,10 +154,11 @@ function MultipleAreaTwo() {
                           </div>
                         </div>
                         <p>
-                          MukhiBuilds did an amazing job on our basement. They
-                          turned it into a cozy and functional space. The team
-                          was professional and completed the work on time.
-                          Highly recommend!
+                          MukhiBuilds did an amazing job on our property. They
+                          turned our basement into a cozy, functional space and
+                          transformed our backyard with beautiful landscaping.
+                          The team was professional and completed the work on
+                          time. Highly recommend!
                         </p>
                         <div className="content-bottom">
                           <h4 className="title">Alex Johnson</h4>
@@ -181,10 +182,11 @@ function MultipleAreaTwo() {
                         </div>
                         <p>
                           I can't thank Mukhi Builds enough for the fantastic
-                          job they did on our basement. They were professional,
-                          efficient, and the quality of work was outstanding.
-                          They transformed our unused space into a cozy,
-                          functional area for our family. We love it!
+                          job they did on our home renovation. They were
+                          professional, efficient, and the quality of work was
+                          outstanding. They transformed our property inside and
+                          out — from the basement to the landscaping. We love
+                          it!
                         </p>
                         <div className="content-bottom">
                           <h4 className="title">Darrell Steward</h4>
@@ -211,7 +213,7 @@ function MultipleAreaTwo() {
                           From the initial consultation to the final touches,
                           their team was friendly and knowledgeable. They took
                           our ideas and made them a reality. Highly recommend
-                          them for any basement renovations!
+                          them for any construction or landscaping project!
                         </p>
                         <div className="content-bottom">
                           <h4 className="title">Robert C. Simmons</h4>
@@ -237,9 +239,8 @@ function MultipleAreaTwo() {
                         <p>
                           Working with Mukhi Builds was a pleasure from start to
                           finish. Their attention to detail and commitment to
-                          quality is unmatched. Our basement now feels like a
-                          brand new part of the house, and we couldn’t be
-                          happier with the results.
+                          quality is unmatched. Our property looks completely
+                          renewed, and we couldn't be happier with the results.
                         </p>
                         <div className="content-bottom">
                           <h4 className="title">Karikoka Ahli</h4>
@@ -263,12 +264,12 @@ function MultipleAreaTwo() {
                           </div>
                         </div>
                         <p>
-                          Mukhi Builds did an amazing job on our basement. They
-                          were punctual, professional, and very easy to work
-                          with. The end result is a beautiful, functional space
-                          that we use every day. I would definitely recommend
-                          them to anyone looking for quality basement
-                          renovations.
+                          Mukhi Builds did an amazing job on our home. They were
+                          punctual, professional, and very easy to work with.
+                          The end result is a beautiful, functional space that
+                          we enjoy every day. I would definitely recommend them
+                          to anyone looking for quality construction and
+                          landscaping work.
                         </p>
                         <div className="content-bottom">
                           <h4 className="title">Ayesha Khan</h4>

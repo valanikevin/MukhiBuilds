@@ -56,13 +56,13 @@ const ImageSlider = () => {
                 className="sub-title tg-element-title wow fadeInUp"
                 data-wow-delay=".2s"
               >
-                Our Completed Projects
+                Real Results, Real Projects
               </span>
               <h2
                 className="title tg-element-title wow fadeInUp"
                 data-wow-delay=".4s"
               >
-                A Visual Showcase of Our Work
+                See Our Work in Action
               </h2>
             </div>
           </div>
