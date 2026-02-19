@@ -28,8 +28,9 @@ function HeaderThree({ className = "menu-area-three" }) {
                     className="logo"
                     style={{
                       display: "flex",
+                      flexDirection: "column",
                       alignItems: "center",
-                      gap: "10px",
+                      gap: "6px",
                     }}
                   >
                     <a href="/">
@@ -39,17 +40,19 @@ function HeaderThree({ className = "menu-area-three" }) {
                         style={{ maxHeight: "80px" }}
                       />
                     </a>
-                    <div className="logo-tagline d-none d-xl-block">
+                    <div
+                      className="logo-tagline"
+                      style={{ textAlign: "center" }}
+                    >
                       <span
                         style={{
                           fontSize: "11px",
                           fontWeight: "700",
                           textTransform: "uppercase",
-                          letterSpacing: "1.5px",
+                          letterSpacing: "1.2px",
                           color: "#fe5d14",
-                          lineHeight: "1.4",
+                          lineHeight: "1.15",
                           display: "block",
-                          whiteSpace: "nowrap",
                         }}
                       >
                         Construction &amp;
@@ -59,11 +62,10 @@ function HeaderThree({ className = "menu-area-three" }) {
                           fontSize: "11px",
                           fontWeight: "700",
                           textTransform: "uppercase",
-                          letterSpacing: "1.5px",
+                          letterSpacing: "1.2px",
                           color: "#333",
-                          lineHeight: "1.4",
+                          lineHeight: "1.15",
                           display: "block",
-                          whiteSpace: "nowrap",
                         }}
                       >
                         Landscaping

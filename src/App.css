@@ -192,6 +192,39 @@
 }
 
 /* ==========================================
+   Logo tagline (always visible, centered under logo)
+   ========================================== */
+.menu-wrap .logo {
+  /* ensure logo container stacks image + tagline */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.menu-wrap .logo .logo-tagline span {
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  line-height: 1.15;
+}
+
+.menu-wrap .logo .logo-tagline span:first-child {
+  color: #fe5d14;
+}
+.menu-wrap .logo .logo-tagline span:last-child {
+  color: #333;
+}
+
+@media (max-width: 575px) {
+  .menu-wrap .logo .logo-tagline span {
+    font-size: 10px;
+  }
+}
+
+/* ==========================================
    Footer improvements
    ========================================== */
 .footer-logo-area .logo img {
